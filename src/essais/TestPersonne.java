@@ -6,6 +6,17 @@ import entites.Personne;
 public class TestPersonne {
 
 	public static void main(String[] args) {
+		
+		AdressePostale adresse = new AdressePostale(4, "rue des Pradiers", 34000, "Montpellier");
+		Personne pers = new Personne("Trump", "Donald", adresse);
+		
+		System.out.println(pers.nom);
+		System.out.println(pers.prenom);
+		System.out.println(pers.adresse);
+				
+		
+		/**
+		
 		AdressePostale adresse_1 = new AdressePostale();
 		adresse_1.numeroRue = 4;
 		adresse_1.libelleRue = "rue des Pradiers";
@@ -27,7 +38,7 @@ public class TestPersonne {
 		personne_2.nom = "Trump";
 		personne_2.prenom = "Donald"  ;
 		personne_2.adresse = adresse_2;
-
+		*/
 	}
 
 }
