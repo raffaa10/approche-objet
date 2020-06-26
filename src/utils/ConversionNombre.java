@@ -1,7 +1,5 @@
 package utils;
 
-import entites.AdressePostale;
-
 public class ConversionNombre {
 
 	public static void main(String[] args) {
