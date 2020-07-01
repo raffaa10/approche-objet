@@ -2,43 +2,48 @@ package banque;
 
 public class Compte {
 	
-	private int numeroDeCompte;
-	private int soldeDeCompte;
+	private int numeroCompte;
+	private int soldeCompte;
 
-	public Compte(int numeroDeCompte, int soldeDeCompte) {
-		this.numeroDeCompte = numeroDeCompte;
-		this.soldeDeCompte = soldeDeCompte;
+	public Compte(int numeroCompte, int soldeCompte) {
+		this.numeroCompte = numeroCompte;
+		this.soldeCompte = soldeCompte;
+			
+	}
 	
+
+	@Override
+	public String toString() {
+		return "Compte - numeroCompte=" + numeroCompte + ", soldeCompte=" + soldeCompte;
 	}
 
 	/**
-	 * @return the numeroDeCompte
+	 * @return the numeroCompte
 	 */
-	public int getNumeroDeCompte() {
-		return numeroDeCompte;
+	public int getNumeroCompte() {
+		return numeroCompte;
 	}
 
 	/**
-	 * @param numeroDeCompte the numeroDeCompte to set
+	 * @param numeroCompte the numeroCompte to set
 	 */
-	public void setNumeroDeCompte(int numeroDeCompte) {
-		this.numeroDeCompte = numeroDeCompte;
+	public void setNumeroCompte(int numeroCompte) {
+		this.numeroCompte = numeroCompte;
 	}
 
 	/**
-	 * @return the soldeDeCompte
+	 * @return the soldeCompte
 	 */
-	public int getSoldeDeCompte() {
-		return soldeDeCompte;
+	public int getSoldeCompte() {
+		return soldeCompte;
 	}
 
 	/**
-	 * @param soldeDeCompte the soldeDeCompte to set
+	 * @param soldeCompte the soldeCompte to set
 	 */
-	public void setSoldeDeCompte(int soldeDeCompte) {
-		this.soldeDeCompte = soldeDeCompte;
+	public void setSoldeCompte(int soldeCompte) {
+		this.soldeCompte = soldeCompte;
 	}
-
 	
 }
 

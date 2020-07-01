@@ -6,12 +6,14 @@ public class Personne {
 		public	String prenom;
 		public	AdressePostale adresse;
 		
-		/** public Personne(String nom, String prenom) {
+		// Constructor with two parameters
+		public Personne(String nom, String prenom) {
 			this.nom = nom;
 			this.prenom = prenom;
 		
-		} */
-			
+		} 
+
+		// Constructor with 3 parameters
 		public Personne(String nom, String prenom, AdressePostale adresse) {
 			this.nom = nom;
 			this.prenom = prenom;
